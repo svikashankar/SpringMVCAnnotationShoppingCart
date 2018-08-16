@@ -35,8 +35,9 @@
                    varStatus="varStatus">
             <div class="product-preview-container">
                 <ul>
-                    <li><img class="product-image"
-                             src="${pageContext.request.contextPath}/productImage?code=${cartLineInfo.productInfo.code}" />
+                    <li>
+                        <%--<img class="product-image" src="${pageContext.request.contextPath}/productImage?code=${cartLineInfo.productInfo.code}" />--%>
+                            <img src="${pageContext.request.contextPath}/resources/images/book.jpeg" width="100"/>
                     </li>
                     <li>Code: ${cartLineInfo.productInfo.code} <form:hidden
                             path="cartLines[${varStatus.index}].productInfo.code" />
