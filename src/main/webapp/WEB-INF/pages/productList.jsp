@@ -27,8 +27,8 @@
     <div class="product-preview-container">
         <ul>
             <li>
-                <%--<img class="product-image" src="${pageContext.request.contextPath}/productImage?code=${prodInfo.code}" />--%>
-                <img src="${pageContext.request.contextPath}/resources/images/book.jpeg" width="100"/></li>
+                <img class="product-image" src="${pageContext.request.contextPath}/productImage?code=${prodInfo.code}" />
+                <%--<img src="${pageContext.request.contextPath}/resources/images/Image1534163661828.png" width="100"/></li>--%>
             <li>Code: ${prodInfo.code}</li>
             <li>Name: ${prodInfo.name}</li>
             <li>Price: <fmt:formatNumber value="${prodInfo.price}" type="currency"/></li>

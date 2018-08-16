@@ -54,8 +54,8 @@
         <tr>
             <td>Image</td>
             <td>
-                <%--<img src="${pageContext.request.contextPath}/productImage?code=${productForm.code}" width="100"/></td>--%>
-            <img src="/resources/images/book.jpeg" width="100"/></td>
+                <img src="${pageContext.request.contextPath}/productImage?code=${productForm.code}" width="100"/></td>
+            <%--<img src="/resources/images/book.jpeg" width="100"/></td>--%>
             <td> </td>
         </tr>
         <tr>
